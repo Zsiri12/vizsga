@@ -1,0 +1,60 @@
+EIGRP ÉS ROUTER KÖZÖTTI KAPCSOLAT
+
+router ospf 1
+redistribute eigrp 1 metric 1 subnets
+
+
+router eigrp 1
+redistribute ospf 1 metric 1 1000 255 1 1 
+
+
+…………………………………………………………………………………………………………………………
+
+
+RIP ÉS OSPF KÖZÖTTI KAPCSOLAT
+
+router rip 
+version 2
+redistribute ospf 1 metric 1
+
+
+router ospf 1
+redistribute rip metric 1 subnets
+
+
+…………………………………………………………………………………………………………………………
+
+
+RIP ÉS EIGRP KÖZÖTTI KAPCSOLAT
+
+
+router rip 
+version 2
+redistribute eigrp 1 metric 1
+
+
+router eigrp 1
+redistribute rip metric 10000 1 255 1 1500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

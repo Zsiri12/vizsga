@@ -1,0 +1,14 @@
+VLAn beallitasa switchen:
+-conf t
+-vlan <vlan_id>
+-name <vlan_name>
+
+VLAN hozzarendeles porthoz:
+-interface port neve (pl. G0/0)
+-switchport mode access
+-switchport access vlan (vlan_ID)
+
+Trunk:
+-interface port neve (pl. G0/0)
+-switchport mode trunk
+-switchport trunk allowed vlan pl(40,20) Vlan ID

@@ -1,0 +1,16 @@
+
+conf t
+line con 0
+password titok
+login
+end
+banner motd ! Hello !
+enable secret titok
+enable password titoktitok
+exit
+line vty 0 15
+password titok
+login
+end
+service password-encryption
+

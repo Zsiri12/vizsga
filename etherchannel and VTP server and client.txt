@@ -1,0 +1,26 @@
+int range f0/1-4
+channel-group 1 mode active
+exit
+int port-ch 1
+swtchport mode trunk
+ex
+
+ROUTER fele is kell trunk
+int g0/1
+swtchport mode trunk
+ex
+
+
+VTP server 
+
+vtp mode server
+vtp domain Vizsga
+vtp password Vizsga_pass
+
+VTP client
+
+vtp domain Vizsga
+vtp mode client
+vtp password Vizsga_pass
+
+

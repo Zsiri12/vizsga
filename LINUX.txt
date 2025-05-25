@@ -1,0 +1,70 @@
+Unix tortenete:
+1968 elkezdtek fejleszteni
+1970 unix lesz
+
+ 
+kozel 500 darab kelt el belole
+
+1980-elso verzio IBM pc-ken is futott, Xenix
+1982-elso kereskedelmi verzio Unix
+Utana BSD lett belole 
+
+Kezdetet vette az Unix VS BSD
+egyik sem nyert
+szabvanyugyi hivatal (X/Open) amely kiadja a Unix 95 minositest
+1993 AT and A eladta a Unix ot
+1991-ben kezdte fejeszteni L0inus Torvalds
+eleinte assembly nyelven kesobb atter a c nyelvre
+1991 okt 5 0.02 verzio
+1991 dec 0.10 verzio
+Az elso a fo verzio(lenyegi valtozasok), a masodik szam ha paros akkor stabil, ha paratlan akkor tesztvaltozat.
+A harmadik szam meg kisebb modositasokkor ugrik egyet
+Nagy mertekben nott a Linux alatt futo programok szama
+Egyre tobb hardvert kezdett tamogatni 
+elkezdenek a nagy szoftvercegek is kiadni programokat pl apche
+1996 elindult a Gnome es a KDE projekt grafikus felulet
+2000 StarOffice ->OpenOffice ->LibreOffice
+2004 oktober Az elso Ubuntu(Linux emberi lenyek szamara)
+
+Ismertebb Linux disztribuciok:
+Debian GNU/Linux
+Ubuntu, Kubuntu, Xubuntu
+Xentos
+
+LINUX kontra WINDOWS
+foleg a licensz
+frissites fo kulombseg hogy a win update csak microsoft programokat frissit
+a linux pedig az osszeset frissiti
+
+Stabilitas: A linux a win8 ig jobb volt viszont azota nincs nagy kulombseg
+
+Linux -> Szerverekben nagon eros
+Windows -> Felhasznaloknal jobb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

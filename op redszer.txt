@@ -1,0 +1,75 @@
+Az operacios rendszerek csop:
+
+Egy olyan programrendszer amely mukodteti a szamitogep reszegysegeit vezerli a programok 
+Felhasznaloi felulet szerint
+	-karakteres(UNIX, LINUX)
+	-grafikus (win, Linux)
+
+Felhasznalok szama szerinti:
+	-egyfelhasznalos
+	-tobbfelhasznalos
+
+Gepek szama szerint:
+	-egyedi
+	-szerver
+
+Az OP rendszerek fejl.:
+	-kartyaolvasok alkalmazasa ezert csokkentek az elso szimbolikus nyelvek az assemblerek
+	-elso magas szintu programozasi nyelv a FORTRAN(azt csinalt vele a felh amit akart)
+
+AZ OP rendszerek felepitese
+	-Hardver <-> Kerner(mag) <-> shell(hej) <-> alkalmazasok <-> felhasznalok
+-kerner feladatai:
+	-eszkozok kezeles
+	-memoria kezeles
+	-
+	-
+Az OP rendszer feladatai:
+-eroforras kezeles
+-processzor utemezes
+-memoria kezeles
+-allomany es lemezkezeles
+rendet kell tartani a megorzendo allomanyok kozott
+-felhasznaloi felulet
+rendszermaggal tud kommunikalni a felhasznalo
+
+eszkozkezelok
+megszakitas kezeles
+rendszerhivas valasz 
+preemtive = elveheto eroforras
+olyankor szukseges ha egy folyamatot nem szeretnenk ha valaki megzavarna
+
+BIOS-keresi az op rendszer inditofajljat es elinditja
+Betoltodik a kerner
+Hardvereszkozok inicializalasa uj eszk keresese 
+illesztoprogramok driverek szolgaltatasok inditasa
+felhhasznaloi interakcio megkezdese grafikus kezeloi felulet GUI vagy karakteres
+bejelentkezes
+autoatikus indulo alkalmazasok inditasa
+fajlrendszerek:
+-FAT
+-FAT32
+-NFTS
+-EXT
+
+Erorforrasok:
+minden ami egy folyamat futtatasahoz szukseges(memoria processzor periferiak allomanyok)
+memoriaterulet=folyamatnak lennie kell valahol
+processzorido=utasitasok is vegre
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+DOS 
+
+Belso parancsok:
+az operacios rendszer parancsait a hattertarbol tolti be
+csak a fontosakat tolti be mert  
+
+Kulso parancsok:
+hattertarolorol csak vegrehajtas idejere
+Dos verzionkent valtoznaak a belso es kulso parancs
+mindig a prompt utan kell beirni
+parancs parameterek /kapcsolok
+A: meghajtovaltas
+CLS: kepernyotorlos
+VER: Verzioszam lekerese
+Time: ido beall
+DATE: datum beall
+DIR: katalogus lekerese
+Tree: konyvtarstruktura lekerdezese
+CD: konyvtar meg
+CD.. egy szintel feljebb
+CD/ vissza gyokerbe
+MD konyvtar letrehozasa     DEBIAN(MKDIR)
+RD konyvtar torlese
+REN konyvtaar atnezese
+MOVE konyvtarak athelyezese
+
+Copy masolas
+copy con szovegfajl letrehozasa
+
+
+Format formattalas
+unformat visszaallitas
+label lemez nevenek megadasa
+vol lemez nevenek lekrdezese
+diskcopy floppy teljes masolasa
+chkdsk lemezellenorzes
+backup biztonsagi mentes keszitese
+
+
+
+
+
