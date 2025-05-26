@@ -1,0 +1,74 @@
+🧠 ALAP PARANCSOK
+Parancs	Mit csinál?
+enable	Privilegizált (admin) módba lépés
+configure terminal vagy conf t	Globális konfigurációs mód
+hostname <név>	Eszköz nevének beállítása
+exit	Egy szinttel visszalép
+end	Visszalép alapmódba (user/exec)
+copy running-config startup-config	Aktuális konfiguráció mentése bekapcsolás utáni indulásra
+show running-config	Futó konfiguráció megtekintése
+show startup-config	Mentett konfiguráció megtekintése
+show version	Eszköz adatai: iOS verzió, memória stb.
+show ip interface brief	Rövid IP konfigurációs összefoglaló
+
+🌐 INTERFÉSZ BEÁLLÍTÁS
+Parancs	Mit csinál?
+interface <pl: FastEthernet0/1>	Interfész konfigurációs módba lépés
+ip address <IP> <maszk>	IP cím és alhálózati maszk beállítása
+no shutdown	Interfész aktiválása
+shutdown	Interfész leállítása
+description <szöveg>	Interfészhez megjegyzés adása
+
+💡 SWITCH ALAP PARANCSOK
+Parancs	Mit csinál?
+vlan <szám>	VLAN létrehozása
+name <név>	VLAN elnevezése
+interface range fa0/1 - 12	Több port egyszerre való konfigurálása
+switchport mode access	Port access módra állítása
+switchport access vlan <szám>	Port hozzárendelése VLAN-hoz
+show vlan brief	VLAN kiosztás megtekintése
+show mac address-table	MAC cím tábla megtekintése
+
+🌍 ROUTER PARANCSOK (STATIKUS ROUTING)
+Parancs	Mit csinál?
+ip route <hálózat> <maszk> <következő ugrás IP>	Statikus útvonal hozzáadása
+show ip route	Routing tábla megtekintése
+show interfaces	Interfészek állapota és statisztikái
+
+🔐 TELNET / SSH / JELSZÓ BEÁLLÍTÁS
+Parancs	Mit csinál?
+line vty 0 4	Virtuális konzol (telnet) vonalak konfigurálása
+password <jelszó>	Jelszó megadása
+login	Kötelezővé teszi a jelszót bejelentkezéshez
+line console 0	Konzol port konfigurálása
+enable password <jelszó>	Enable módhoz jelszó
+enable secret <jelszó>	Titkosított jelszó (biztonságosabb)
+service password-encryption	Összes jelszó titkosítása
+
+🛰️ DHCP PARANCSOK (Routeren)
+Parancs	Mit csinál?
+ip dhcp pool <név>	DHCP pool létrehozása
+network <hálózat> <maszk>	Milyen hálózatra oszt IP-t
+default-router <gateway IP>	Alapértelmezett átjáró megadása
+dns-server <DNS IP>	DNS szerver címe
+ip dhcp excluded-address <IP - IP>	Ezeket az IP-ket ne ossza ki
+
+🔧 NAT PARANCSOK
+Parancs	Mit csinál?
+ip nat inside	Belső interfész megjelölése
+ip nat outside	Külső interfész megjelölése
+ip nat inside source list <szám> interface <külső interfész> overload	NAT beállítás lista alapján
+access-list <szám> permit <belső hálózat> <wildcard maszk>	NAT-hoz ACL készítése
+show ip nat translations	NAT táblázat megtekintése
+
+🕵️ ACL (Access Control List) PARANCSOK
+Parancs	Mit csinál?
+access-list 1 permit <IP> <wildcard>	Egyszerű ACL létrehozása
+access-list 1 deny <IP> <wildcard>	IP tiltása
+ip access-group 1 in	ACL alkalmazása interfészre bejövő forgalomra
+ip access-group 1 out	ACL alkalmazása kimenő forgalomra
+
+📦 PING, TESZTELÉS
+Parancs	Mit csinál?
+ping <IP>	Elérhetőség tesztelése
+traceroute <IP>	Útvonal nyomon követése (mint tracert Windows-ban)
