@@ -1,0 +1,20 @@
+-------------------------------------------------
+
+Debian beállítások: AWS
+
+1. sudo apt update
+2. sudo apt install nftables.conf ---> Tűzfal
+3. sudo nano /etc/resolv.conf ---> domain / nameserver
+4. sudo ap tupdate
+5. sudo apt-get install isc-dhcp-server ---> DHCP szerver
+6. sudo nano /etc/dhcp/dhcpd.conf
+7. sudo apt update
+8. sudo apt install apache2 ---> Apache webserver
+9. sudo nano /var/www/html/index.html
+10. sudo apt update
+11. sudo apt install nftables ---> Tűzfal
+12. sudo nano /etc/nftables.conf
+13. sudo apt-get install samba -y ---> Megosztott mappa
+14. sudo nano /etc/samba/smb.conf
+
+-------------------------------------------------
